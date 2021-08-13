@@ -10,7 +10,7 @@ git clone https://github.com/esonpaguia/service-api-database.git
 
 ### Startup
 ```
-docker-compose up -d
+docker-compose up -d --build
 ```
 
 ### Health check
