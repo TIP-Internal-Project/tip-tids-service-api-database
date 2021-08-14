@@ -1,9 +1,9 @@
 # Service API Database
-This is a DEV database to be run together with the Service Engagement APIs.
+This is a DEV, LOCAL and TEST database to be run together with the Service APIs.
 
 ## Repository
 ```
-git clone https://github.com/esonpaguia/service-api-database.git
+git clone https://github.com/esonpaguia/tip-tids-service-api-database
 ```
 
 ## How to operate
