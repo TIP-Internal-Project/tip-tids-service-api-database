@@ -41,7 +41,7 @@ docker run -d --name mongodb --env-file=db-config.env -p 27017:27017 telusintern
   ```
 - From local CMD
   ```
-  mongosh mongodb://api_user:api1234@127.0.0.1:27017/tip -u api_user -p api1234
+  mongosh mongodb://127.0.0.1:27017/tip -u api_user -p api1234
   ```
 - To import csv to mongodb collection
   ```
