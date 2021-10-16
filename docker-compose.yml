@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.dev
-    container_name: tip-tids-service-api-database-mongodb
+    container_name: mongodb
     env_file: mongodb-config.env
     networks:
       - mongodb_network
@@ -15,7 +15,7 @@ services:
 
   mongo-express:
     image: mongo-express
-    container_name: tip-tids-service-api-database-mongo-express
+    container_name: mongo-express
     env_file: mongo-express-config.env
     volumes:
       - mongodb-data:/data/db

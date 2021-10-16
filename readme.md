@@ -45,9 +45,9 @@ docker run -d --name mongodb --env-file=db-config.env -p 27017:27017 telusintern
   ```
 - To import csv to mongodb collection
   ```
-  mongoimport --host=127.0.0.1 --port=27017 --db=tip --collection=members --file=members.csv --headerline --type=csv -u api_user -p api1234
+  mongoimport --host=127.0.0.1 --port=27017 --db=tip --collection=teamMember --file=teamMember.csv --headerline --type=csv -u api_user -p api1234
   ```
   or
   ```
-  mongoimport --host 127.0.0.1:27017 -d tip -c members --file members.csv --headerline --type csv -u api_user -p api1234
+  mongoimport --host 127.0.0.1:27017 -d tip -c teamMember --file teamMember.csv --headerline --type csv -u api_user -p api1234
   ```
