@@ -7,5 +7,5 @@ db.createUser(
   },
 );
 
-db.createCollection("feature");
-db.createCollection("teamMember");
+db.createCollection("Features");
+db.createCollection("TeamMembers");
