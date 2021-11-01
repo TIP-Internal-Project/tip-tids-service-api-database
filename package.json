@@ -1,0 +1,19 @@
+{
+  "name": "tip-tids-service-api-database",
+  "version": "1.0.0",
+  "description": "MongoDB database to be run together with the Service APIs.",
+  "scripts": {
+    "start": "docker-compose up -d --build",
+    "stop": "docker-compose down -v --rmi all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIP-Internal-Project/tip-tids-service-api-database.git"
+  },
+  "author": "Eddison Paguia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TIP-Internal-Project/tip-tids-service-api-database/issues"
+  },
+  "homepage": "https://github.com/TIP-Internal-Project/tip-tids-service-api-database#readme"
+}
